@@ -1,0 +1,183 @@
+{
+    "questions": [{
+            "questionText": "What does SQL stand for?",
+            "options": [{
+                    "text": "Structured Query Language",
+                    "correct": true
+                },
+                {
+                    "text": "Structured Query List"
+                },
+                {
+                    "text": "Sample Query Language"
+                },
+                {
+                    "text": "None of these"
+                }
+            ],
+            "explanation": "SQL stands for Structured Query Language which is a programming language used for managing data in a relational database management system."
+        },
+        {
+            "questionText": "Which of the following is not a DDL command?",
+            "options": [{
+                    "text": "TRUNCATE"
+                },
+                {
+                    "text": "ALTER"
+                },
+                {
+                    "text": "CREATE"
+                },
+                {
+                    "text": "UPDATE",
+                    "correct": true
+                }
+            ],
+            "explanation": "An UPDATE command is used for managing the data stored in a database. It is an example of a DML command that also includes the INSERT and DELETE commands."
+        },
+        {
+            "questionText": "Which SQL keyword is used to retrieve only unique values from a database table?",
+            "options": [{
+                    "text": "UNIQUE"
+                },
+                {
+                    "text": "DISTINCT",
+                    "correct": true
+                },
+                {
+                    "text": " SELECT DISTINCT"
+                },
+                {
+                    "text": "UNIQUE VALUES"
+                }
+            ],
+            "explanation": "The DISTINCT keyword is used in a SELECT statement to retrieve only unique values from a specified column in a database table. It eliminates duplicate rows from the result set."
+        },
+        {
+            "questionText": "Which SQL function is used to find the total number of rows in a database table?",
+            "options": [{
+                    "text": "SUM"
+                },
+                {
+                    "text": "COUNT",
+                    "correct": true
+                },
+                {
+                    "text": "TOTAL"
+                },
+                {
+                    "text": "ROWS"
+                }
+            ],
+            "explanation": "The COUNT function is used to count the number of rows in a database table."
+        },
+        {
+            "questionText": "Which SQL clause is used to filter the results of a query based on a specified condition?",
+            "options": [{
+                    "text": "WHERE",
+                    "correct": true
+                },
+                {
+                    "text": "FROM"
+                },
+                {
+                    "text": "FILTER"
+                },
+                {
+                    "text": "HAVING"
+                }
+            ],
+            "explanation": "The WHERE clause is used to filter the results of a query based on a specified condition. It allows you to retrieve only those rows that satisfy the given condition."
+        },
+        {
+            "questionText": "In SQL, which type of join returns all the rows from the left table and the matching rows from the right table?",
+            "options": [{
+                    "text": "INNER JOIN"
+                },
+                {
+                    "text": "RIGHT JOIN"
+                },
+                {
+                    "text": "FULL OUTER JOIN"
+                },
+                {
+                    "text": "LEFT JOIN",
+                    "correct": true
+                }
+            ],
+            "explanation": "A LEFT JOIN returns all the rows from the left table and the matching rows from the right table. If there is no match, NULL values will be returned for columns from the right table."
+        },
+        {
+            "questionText": "Which SQL statement is used to remove a table from a database?",
+            "options": [{
+                    "text": "DELETE TABLE"
+                },
+                {
+                    "text": "DROP",
+                    "correct": true
+                },
+                {
+                    "text": "REMOVE TABLE"
+                },
+                {
+                    "text": "ERASE"
+                }
+            ],
+            "explanation": "The DROP statement is used to remove a table, index, or view from a database. It permanently deletes the specified database object and its data."
+        },
+        {
+            "questionText": "Which SQL statement is used to sort the result set in ascending order?",
+            "options": [{
+                    "text": "ORDER BY ASC",
+                    "correct": true
+                },
+                {
+                    "text": "SORT ASC"
+                },
+                {
+                    "text": "SORT BY ASC"
+                },
+                {
+                    "text": "ORDER ASC"
+                }
+            ],
+            "explanation": "The ORDER BY clause is used to sort the result set in either ascending (ASC) or descending (DESC) order. To sort in ascending order, you use ORDER BY column_name ASC."
+        },
+        {
+            "questionText": "Which SQL function is used to calculate the average value of a numeric column?",
+            "options": [{
+                    "text": "AVG",
+                    "correct": true
+                },
+                {
+                    "text": "MEAN"
+                },
+                {
+                    "text": "AVERAGE"
+                },
+                {
+                    "text": "TOTAL"
+                }
+            ],
+            "explanation": " The AVG function is used to calculate the average value of a numeric column. It computes the sum of values and divides it by the number of rows."
+        },
+        {
+            "questionText": "Which SQL data type is used to store date and time values?",
+            "options": [{
+                    "text": "TIMESTAMP",
+                    "correct": true
+                },
+                {
+                    "text": "DATETIME"
+                },
+                {
+                    "text": "DATEANDTIME"
+                },
+                {
+                    "text": "TIMEDATE"
+                }
+            ],
+            "explanation": "The TIMESTAMP data type is used to store date and time values, including both the date and time components."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+<div class="container  p-5">
+    <h1 class="display-8 fw-bold" style="color: #200F8C;">Welcome to Quiz App</h1>
+    <p class="col-md-8 fs-4" style="color: #00ED5B;">This quiz contains total {{questionList.length}} questions. Each Question holds 10 Points</p>
+    <h4 style="color: #200F8C;">Rules:</h4>
+    <ol>
+        <li>Correct Question gives you 10 points</li>
+        <li>Incorrect question gives to -10 points</li>
+        <li>You will have 60 sec to answer each question</li>
+        <li>Refereshing the page will reset the Quiz</li>
+        <h1  style="font-family:cursive;text-align:center; color: #200F8C;">All the best!!</h1>
+        <div class="name col-md-4 my-3">
+            <label for="" style="color: #00ED5B;">Enter Name</label>
+            <input #name type="text" class="form-control" placeholder="Enter Name">
+        </div>
+        <button class="btn btn-lg" routerLink="/question" (click)="startQuiz()" style="background-color: #200F8C; color: #00ED5B; font-weight: 600;">Start The Quiz</button>
+
+
+    </ol>
+
+
+</div>
